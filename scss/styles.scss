@@ -1,0 +1,35 @@
+.nav{
+    display: flex;
+    background-color: black;
+    opacity: .6;
+    align-items: flex-end;
+    margin-bottom: 2.5rem;
+    p{
+        font-size: 3.5rem;
+        color: white;
+    }
+    ul{
+        display: flex;
+        list-style: none;
+    }
+    li{
+        font-size: 2rem;
+        color: cyan;
+        margin: 0px 50px 0px 0px;
+        &:hover{
+            color: white;
+        }
+    }
+}
+.hero{
+    background-color: grey;
+    display: flex;
+    img{
+        width: 50%;
+        height: 80%;
+    }
+    p{
+        font-size: 2rem;
+        color: cyan;
+    }
+}
